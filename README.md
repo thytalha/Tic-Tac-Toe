@@ -41,19 +41,19 @@ Enter column (1-3): 1
 
 X| |  
 -----  
- | |  
+-|-|- 
 -----  
- | |  
+-|-|- 
 
 Pasha's turn:  
 Enter row (1-3): 2  
 Enter column (1-3): 2  
 
-X| |  
+X|-|- 
 -----  
- |O|  
+-|O|- 
 -----  
- | |  
+-|-|- 
 
 ... and so on, until someone wins or it's a draw.
 
