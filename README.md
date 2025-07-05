@@ -65,8 +65,3 @@ X|-|-
 ## License
 
 This project is made for educational purposes. Feel free to use or modify it. 
-<img
-src="C:\Users\l2430\OneDrive\Pictures\Screenshots 1\Screenshot 2025-07-05 223944.png"
-alt="sample output"
-width="300" height="200"
-/>
