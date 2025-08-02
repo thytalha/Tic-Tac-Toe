@@ -42,6 +42,7 @@ X|-|-
 -|-|- 
 -----  
 -|-|- 
+<hr>
 
 Pasha's turn:  
 Enter row (1-3): 2  
@@ -52,7 +53,7 @@ X|-|-
 -|O|- 
 -----  
 -|-|- 
-
+<hr>
 ... and so on, until someone wins or it's a draw.
 
 ## Features
