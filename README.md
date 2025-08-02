@@ -2,7 +2,7 @@
 
 A simple two-player Tic-Tac-Toe game written in C++ for the console.
 
-Author: Talha Pasha
+## Author: Talha Pasha
 
 ## How to Compile and Run
 
