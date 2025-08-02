@@ -51,8 +51,8 @@ X|-|-
 -----  
 -|O|- 
 -----  
--|-|- 
-<hr>
+## -|-|- 
+
 ... and so on, until someone wins or it's a draw.
 
 ## Features
