@@ -1,12 +1,13 @@
 #include <iostream>
+#include <string>
 using namespace std;
 void name(string& name1, string& name2)
 {
 	cout << "Enter name of 1st Player: ";
-	cin >> name1;
+	getline(cin, name1);
 	cout << endl;
 	cout << "Enter name of 2nd Player: ";
-	cin >> name2;
+	getline(cin, name2);
 	cout << endl;
 }
 void board(char arr[5][5])
@@ -40,15 +41,21 @@ void row_input(int& row)
 {
 	cout << endl;
 	cout << "Enter row (1-3): ";
-	cin >> row;
-	while (true)
+	while (row <= 0 || row > 3)
 	{
+		cin >> row;
+		if (cin.fail())
+		{
+			cin.clear(); // clear error flag
+			cin.ignore(1000, '\n'); // discard invalid input
+			cout << "Invalid input! Please enter a number between 1 and 3: ";
+			continue;
+		}
 		if (row < 1 || row > 3)
 		{
 			cout << "Invalid input, try again." << endl;
 			cout << "Enter row again (1-3): ";
 			cin >> row;
-
 		}
 		else
 		{
@@ -73,9 +80,16 @@ void row_input(int& row)
 void col_input(int& col)
 {
 	cout << "Enter column (1-3): ";
-	cin >> col;
 	while (true)
 	{
+		cin >> col;
+		if (cin.fail())
+		{
+			cin.clear(); // clear error flag
+			cin.ignore(1000, '\n'); // discard invalid input
+			cout << "Invalid input! Please enter a number between 1 and 3: ";
+			continue;
+		}
 		if (col < 1 || col > 3)
 		{
 			cout << "Invalid input, try again." << endl;
