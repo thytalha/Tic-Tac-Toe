@@ -55,12 +55,13 @@ Talha's turn:
 Enter row (1-3): 1  
 Enter column (1-3): 1  
 
+```
 X |   |    
 ---------  
   |   |    
 ---------  
   |   |
-
+```
 ## 👨‍💻 Credits
 **Designed and Coded by Talha Pasha.**
 
